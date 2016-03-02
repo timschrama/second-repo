@@ -1,13 +1,72 @@
-% Buttondown Stylesheet Example
-% Pandoc Markdown Version
-% February 2012
+% CV Tim Schrama
+% 
+% February 2016
 
-Headers
-=======
+![](https://www.facebook.com/photo.php?fbid=10205321363529806&set=a.1442359415200.2056842.1119510934&type=3&theater)
 
-Above this, we have the title, author (or subtitle) and date 
-Pandoc metadata. These are specially classed H1, H2 and H3 
-elements that we just add centering to.
+Personalia
+===============
+
+----        	---------------------------
+Naam         	Tim Schrama
+Adres        	Helmondsingel 160
+Postcode     	5709 AG Helmond
+Nationaliteit	Nederlands
+Geboortedatum 	27-04-1994
+Geboorteplaats	Geldrop
+Geslacht     	Man
+Burgelijke staat	Ongehuwd
+Telefoonnummer  +31 6 27881771
+E-mailadres  	timschrama1994@hotmail.com	
+Rijbewijs    	Personenauto (B)
+----        	--------------------------------
+
+- - -
+
+Opleidingen
+==================
+
+* September 2015 - heden
+	* [WO Master Economics, behavioral economics track](https://www.tilburguniversity.edu/nl/onderwijs/masteropleidingen/economics/program/behavioral-economics/)
+		* [Tilburg university](www.uvt.nl), Tilburg
+
+* September 2012 - September 2015
+	* [WO Bachelor economics](https://www.tilburguniversity.edu/nl/onderwijs/bacheloropleidingen/economics/) (Behaald)
+		* [Tilburg university](www.uvt.nl), Tilburg
+
+* September 2006 - Juni 2012
+	* Atheneum (Behaald)
+		* [Peellandcollege](http://www.ivo-deurne.nl/news.aspx?pid=5), Deurne
+
+- - -
+
+Overig
+===============
+
+* Talen
+	* Nederlands (Vloeiend)
+	* Engels (Goed)
+	* Spaans (Redelijk)
+
+* Hobby's
+	* Hardlopen
+	* Lezen
+	* Lekker eten
+
+- - -
+
+Werkervaring
+=================
+
+* Juli 2009 - Heden
+	* [Jumbo Brouwhorst](https://www.jumbo.com/content/jumbo-helmond-brouwhorst/), voorheen C1000 en Super de boer Ron Hendrikx
+		* Vulploegmedewerker
+		* Magazijn verantwoordelijke
+		* Vulploegleider / avondverantwoordelijke
+
+* Juli 2010 - Juli 2013 
+	* [Elkerliek ziekenhuis Helmond](http://www.elkerliek.nl/Elkerliek)
+		* Logistiek
 
 ## Level 2
 
