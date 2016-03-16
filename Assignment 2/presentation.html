@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Tim Schrama">
+  <title>Assignment Lewis</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/solarized.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">Assignment Lewis</h1>
+  <h2 class="author">Tim Schrama</h2>
+  <h3 class="date">TiSEM, Tilburg University</h3>
+</section>
+<section id="TOC">
+<ul>
+<li><a href="#/introduction">Introduction</a></li>
+<li><a href="#/final-results">Final results</a></li>
+<li><a href="#/conclusion">Conclusion</a></li>
+</ul>
+</section>
+
+<section><section id="introduction" class="titleslide slide level1"><h1>Introduction</h1></section><section id="first-steps" class="slide level2">
+<h1>First steps</h1>
+<p>Preparation: derivation of the Lewis model. Before we turn to the main questions of the assignment, we first build up the Lewis model. We will derive the most important equations for reference later on. Start by writing down the seven formulas that form blueprint of the Lewis design:</p>
+</section><section id="formulas" class="slide level2">
+<h1>Formulas</h1>
+\begin{align}
+Y_S=A_S L_S \\
+w_S=A_S\\
+Y_M=A_M K^\alpha L_M ^{1-\alpha}\\
+w_M=[1-\alpha]\frac{Y_M}{L_M}\\
+L=L_M+L_S\\
+w_M=\phi w_S\\
+\dot{K}= s_\pi [Y_M-w_M L_M ]-\delta K
+\end{align}
+</section></section>
+<section><section id="final-results" class="titleslide slide level1"><h1>Final results</h1></section><section id="growth-of-economy" class="slide level2">
+<h1>Growth of economy</h1>
+\begin{align}
+\dot{Y}=\dot{K} A_S (\frac{\phi}{1-\alpha}-1)\frac{(1-\alpha) A_M}{\phi A_S}^{\frac{1}{\alpha}} \nonumber \\
+\rightarrow \hat{Y} =\frac{\dot{K} A_S (\frac{\phi}{1-\alpha}-1)\frac{(1-\alpha)A_M}{\phi A_S}^{\frac{1}{\alpha}}}{Y} \nonumber \\
+\rightarrow \hat{Y} =\dot{K} A_S \frac{(\frac{\phi}{1-\alpha}-1)(\frac{1-\alpha}{\phi} \frac{A_M}{A_S} )^{\frac{1}{\alpha}}}{A_S L+K A_S (\frac{\phi}{1-\alpha}-1)(\frac{1-\alpha}{\phi} \frac{A_M}{A_S} )^{\frac{1}{\alpha}}} \nonumber \\
+\end{align}
+</section><section class="slide level2">
+
+\begin{align}
+\rightarrow \hat{Y} =\hat{K} A_S \frac{(\frac{\phi}{1-\alpha}-1)(\frac{(1-\alpha)}{\phi}  \frac{A_M}{A_S} )^{\frac{1}{\alpha}}}{\frac{A_S L}{K}+A_S (\frac{\phi}{1-\alpha}-1)(\frac{(1-\alpha)}{\phi}  \frac{A_M}{A_S})^{\frac{1}{\alpha}}} \nonumber \\
+\rightarrow \hat{Y} =\hat{K} A_S \frac{(\frac{\phi}{1-\alpha}-1)(\frac{1-\alpha}{\phi}  \frac{A_M}{A_S}) ^{\frac{1}{\alpha}}+\frac{A_S L}{K}-\frac{A_S L}{K}}{\frac{A_S L}{K}+A_S (\frac{\phi}{1-\alpha}-1)(\frac{1-\alpha}{\phi}  \frac{A_M}{A_S})^{\frac{1}{\alpha}}} \nonumber \\
+\rightarrow \hat{Y} =\hat{K} (1-\frac{A_S L}{A_S L+K A_S (\frac{\phi}{1-\alpha}-1)(\frac{1-\alpha}{\phi}  \frac{A_M}{A_S})^{\frac{1}{\alpha}}} \nonumber \\
+= \hat{K} [1- A_S \frac{L}{Y}]
+\end{align}
+<p>Over time <span class="math inline">\(A_S\)</span> <span class="math inline">\(L/Y\)</span> becomes smaller, leading to an increasing growth rate of income.</p>
+</section><section id="figure-1" class="slide level2">
+<h1>Figure 1</h1>
+<figure>
+<img src="graph1.png" alt="Graph 1" /><figcaption>Graph 1</figcaption>
+</figure>
+</section><section id="figure-2" class="slide level2">
+<h1>Figure 2</h1>
+<figure>
+<img src="graph2.png" alt="Graph 2" /><figcaption>Graph 2</figcaption>
+</figure>
+</section></section>
+<section><section id="conclusion" class="titleslide slide level1"><h1>Conclusion</h1></section><section id="conclusion-1" class="slide level2">
+<h1>Conclusion</h1>
+<ul>
+<li>I have learned how to use formulas in fancy presentations</li>
+<li>The same holds for figures</li>
+<li>I could make this presentation longer with copy pasting, but that seems useless</li>
+</ul>
+</section></section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
