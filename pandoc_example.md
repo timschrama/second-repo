@@ -67,3 +67,7 @@ Werkervaring
 	* [Elkerliek ziekenhuis Helmond](http://www.elkerliek.nl/Elkerliek)
 		* Logistiek
 
+Assignment 2
+================
+* [Lewis assignment in latex](http://timschrama.github.io/assignment_2/assignment2.html)
+* [Presentatie Lewis](http://timschrama.github.io/assignment_2/presentation.html)
